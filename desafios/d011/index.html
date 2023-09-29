@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Teste de Imagem</title>
+</head>
+<body>
+    <h1>Meu primeiro exercício de teste de imagem em site</h1>
+    <p>Tente abrir esse site em vários dispositivos e veja o resultado da adaptação das imagens</p>
+    <picture>
+        
+        <source media type="(max-width:500px)" srcset="imagens/foto1.png" type="image/png">
+        <source media type="(max-widt:700px)" srcset="imagens/foto2.png" type="image/png">
+        <source media type="(max-widt:950px)" srcset="imagens/foto3.png" type="image/png">
+        <source media type="(max-widt:1050px)" srcset="imagens/foto4.png" type="image/png">
+        
+     
+        <img src="imagens/foto1.png" alt="Imagem Flexível">
+    </picture>
+    
+</body>
+</html>
