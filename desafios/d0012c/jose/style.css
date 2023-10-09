@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Srira&display=swap');
+
+:root {
+  --fonte01: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --fonte02: 'Pacífico', cursiva;
+  --fonte03: 'Sriracha', cursive;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte03);
+    background-color:white;
+    height: 10px;
+}
+
+header a:hover, footer  {
+ text-decoration: underline;
+ 
+}
+header{
+    background-color: black;
+    color:white; 
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+header > h1 {
+    font-size: 5vh;
+    font-family: var(--fonte02)
+    
+}
+
+header >p {
+    padding-bottom: 30px;
+}
+
+section {
+    font-size: 20px;
+    padding: 20px;
+    
+}
+section.q1 {
+    background-color: black;
+    color: white;
+}
+
+section.q2 {
+    background-color: black;
+    color:white;
+}
+
+section.q3 {
+    background-color: black;
+    color:white;
+    
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
