@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+
+        </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>História de Morretes - Paraná</h2><br>
+            
+                <p>
+                    Até o século XVI, a região atual do município era território dos índios carijós. A partir de 1646, com a descoberta de jazidas de ouro, a região passou a ser ocupada por mineradores e aventureiros provenientes de São Paulo. Em 1721, foi fundado oficialmente o povoado de Morretes.
+                </p>
+                <p>
+                    Foi o ouvidor Rafael Pires Pardinho quem, em 1721, determinou que a Câmara Municipal de Paranaguá medisse e demarcasse 300 braças em quadra para servir de localização da sede da futura povoação de Morretes. Em 31 de outubro de 1733 foi realizada a medição das terras no ponto onde residia o rendeiro do porto João de Almeida, primeiro morador a localizar-se nas terras delimitadas, onde foram construídas duas casas, uma das quais pertencia a João de Almeida, localizada no morro da Igreja, e a outra denominada Casa da Farinha.
+                </p>
+                <p>
+                    O povoamento da localidade foi lento e, em meados do século XVIII, transferiu-se para Morretes o parnanguara Capitão Antônio Rodrigues de Carvalho e sua esposa Dona Maria Gomes Setúbal, que receberam autorização do Papa para levantar uma Capela. Sendo esta erigida em 1769 e foi denominada Nossa Senhora do Porto e Menino Deus dos Três Morretes.
+                    A partir desta época, o lugar teve grande crescimento com o setor comercial tornando-se ponto de referência obrigatória aos viajantes de serra acima e rio abaixo.
+                </p>
+                <p>
+                    Em 1812, começou a construção da atual Igreja Matriz de Nossa Senhora do Porto, no mesmo local da primitiva Capela.
+                    Na primeira metade do século XIX, foi construída no Porto de Cima, pelos escravos, a Igreja de São Sebastião. Devoção de origem portuguesa sob a invocação de Nossa Senhora da Guia e de São Sebastião.
+                    O nome do município originou-se do fato de estar a Cidade cercada por morros de pequena elevação e que eram denominados de Morretes.
+                </p>
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+
+<footer>Artigo retirado do site: https://cidades.ibge.gov.br/brasil/pr/morretes/historico - Para treino de site </footer>
+</body>
+
+</html>
